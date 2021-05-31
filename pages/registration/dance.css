@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #262A2B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 90vw;
+  height: 80vh;
+  background: #262A2B;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 5rem;
+  position: relative;
+  left: -7rem;
+}
+
+.container h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.container h3 span {
+  color: red;
+}
+
+.container h1 {
+  font-size: 6em;
+  font-weight: 900;
+}
+
+.container p {
+  max-width: 400px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  opacity: .7;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem auto;
+}
+
+.btn-btn {
+  border: none;
+  outline: none;
+  margin: 1rem 0;
+  padding: 8px 1rem;
+  opacity: .9;
+  font-size: 1.5rem;
+  color: #ff000d;
+  font-weight: 800;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #222627, #292d2e);
+  -webkit-box-shadow: 4px 4px 10px #0f1111, -4px -4px 10px #3d4345;
+          box-shadow: 4px 4px 10px #0f1111, -4px -4px 10px #3d4345;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-btn:hover {
+  -webkit-box-shadow: -4px -4px 10px #0f1111, 4px 4px 10px #3d4345;
+          box-shadow: -4px -4px 10px #0f1111, 4px 4px 10px #3d4345;
+}
+
+.container img {
+  position: absolute;
+  bottom: -18.5%;
+  left: -15%;
+  height: 110vh;
+}
+
+.quotes {
+  position: absolute;
+  right: 3%;
+  top: 5%;
+  max-width: 500px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.qt {
+  color: rgba(255, 255, 255, 0.925);
+  font-size: 2.5rem;
+}
+
+.bt {
+  color: rgba(216, 8, 8, 0.849);
+}
+
+@media (max-width: 1400px) {
+  .main {
+    left: 0;
+    top: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .quotes {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .quotes {
+    display: none;
+  }
+  .container img {
+    opacity: .5;
+  }
+}
+
+@media (max-width: 600px) {
+  .container img {
+    opacity: .5;
+    height: 100vh;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    bottom: -17%;
+  }
+}
+
+@media (max-width: 450px) {
+  .container h1 {
+    font-size: 4em;
+  }
+}
+/*# sourceMappingURL=dance.css.map */
